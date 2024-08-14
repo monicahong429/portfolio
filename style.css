@@ -81,7 +81,7 @@ section h2 {
 
 #home {
   position: relative;
-  background-image: url('/img/m0d3v.png');
+  background-image: url('./img/m0d3v.png');
   background-size: cover;
   background-position: left;
   background-attachment: fixed;
