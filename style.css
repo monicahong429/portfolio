@@ -62,7 +62,7 @@ section {
   justify-content: center;
   align-items: center;
   text-align: left;
-  min-height: 400px;
+  height: 100vh;
 }
 
 section > div {
@@ -148,6 +148,47 @@ section h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
+}
+
+form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: left;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3;
 }
 
 footer {
